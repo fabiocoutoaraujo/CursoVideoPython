@@ -43,4 +43,3 @@ As experiências acumuladas demonstram que o desenvolvimento contínuo de distin
 de atuação prepara-nos para enfrentar situações atípicas decorrentes do orçamento setorial. 
 Do mesmo modo, a crescente influência da mídia promove a alavancagem das diversas correntes 
 de pensamento. """)
-
