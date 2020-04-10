@@ -29,10 +29,9 @@ print(valores)
 
 valores = [8, 2, 5, 4, 3, 0]
 valores.sort()
-
 print(valores)
-valores.sort(reverse=True)
 
+valores.sort(reverse=True)
 print(valores)
 
 print(len(valores))
