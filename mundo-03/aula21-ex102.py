@@ -15,7 +15,7 @@ def fatorial(numero=1, show=False):
 
 # Programa Principal
 num = int(input('Digite um número: '))
-retorno = fatorial(numero=num, show=False)
+retorno = fatorial(numero=num, show=True)
 print('-'*30)
 print(retorno)
 help(fatorial)

@@ -1,18 +1,17 @@
-from datetime import date
-def vota(idade):
+def vota(ano):
+    from datetime import date
+    idade = date.today().year - ano
     if idade < 16:
-        return 'NÃO VOTA'
+        return f'Com {idade} anos: NÃO VOTA'
     if idade < 18:
-        return 'VOTO FACULTATIVO.'        
+        return f'Com {idade} anos: VOTO FACULTATIVO.'
     if idade < 70:
-        return 'VOTO OBRIGATÓRIO.'
+        return f'Com {idade} anos: VOTO OBRIGATÓRIO.'
     else:
-        return 'VOTO OPCIONAL.'
-
+        return f'Com {idade} anos: VOTO OPCIONAL.'
+    
 
 # Programa Principal
 print('-'*30)
 ano = int(input('Em que ano você nasceu? '))
-idade = date.today().year - ano
-retorno = vota(idade)
-print(f'Com {idade} anos: {retorno}')
+print(vota(ano))
