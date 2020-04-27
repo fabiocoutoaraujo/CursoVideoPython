@@ -1,5 +1,5 @@
 import pygame
-pygame.init()
-pygame.mixer_music.load("C:\\repo\\CursoVideoPython\\mundo-01\\aula08-ex021.mp3")
-pygame.mixer_music.play()
-pygame.event.wait()
+import time
+pygame.mixer.init()
+pygame.mixer.Sound.play(pygame.mixer.Sound(file="mundo-01\\aula08-ex021.wav"))
+time.sleep(1)
