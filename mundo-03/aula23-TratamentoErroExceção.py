@@ -1,4 +1,4 @@
-#  Erro = falha sintática
+#  Erro = Falha Sintática
 try:
     a = int(input('Numerador: '))
     b = int(input('Denominador: '))
